@@ -10,10 +10,20 @@
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./order.css">
+    <link rel="stylesheet" href="writing.css">
 </head>
+<style>
+    .Glidingline {
+        color: #333;
+        border-bottom: 2px solid #333;
+    }
+</style>
+
 
 <body>
-    <div>
+    <div style="height: 50px;">
+        <!-- 导航栏开始 -->
         <div style="margin-left: 15%;">
             <h3 style="float: left;">
                 <a href="#" style="text-decoration: none;">
@@ -49,18 +59,81 @@
                 <li><a href="#" style="text-decoration: none;">我的作品</a></li>
                 <li><a href="#" style="text-decoration: none;">我的订单</a></li>
                 <li><a href="#" style="text-decoration: none;">圈子</a></li>
-                <li><a href="#" style="text-decoration: none;">写书</a></li>
+                <li><a href="#" style="text-decoration: none;" class="Glidingline">写书</a></li>
                 <li><a href="#" style="text-decoration: none;">书库</a></li>
             </ul>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 top-pic" style="padding: 10px 10px 10px !important;position:relative;overflow: hidden">
-        <img src="https://static.shiqichuban.com/web/assets/imgs/portal_banner/6.jpg" width="100%" id="bg-img" style="border-radius: 5px;cursor:pointer;" alt="拾柒-背景图片">
-    </div>
-    <div
-        style="height: 60px; background: rgb(74, 74, 74); text-align: center; line-height: 5; color: rgb(255, 255, 255); font-size: 10px;">
-        拾柒网络技术（北京）有限公司 >> 京ICP备15043038
-    </div>
-</body>
+    <!-- 导航栏结束 -->
+    <!-- 做书界面开始 -->
+    <div style="min-height: 845px;">
+        <div style="max-width: 1100px; margin: auto;">
+            <div>
+                <div style="outline: none; width: 1100px;">
+                    <div style="width: 100%; display: inline-block;"><img alt="活动"
+                            src="https://static.shiqichuban.com/web/assets/imgs/portal_banner/6.jpg"
+                            style="width: 100%;">
+                    </div>
+                </div>
+                <div style="overflow: hidden;">
+                    <div style="float: left; width: 200px;">
+                        <div>
+                            <div>
+                                <div style="max-height: 100vh;">
+                                    <div>
+                                        <ul class="ant-menu ant-menu-light ant-menu-root ant-menu-inline" role="menu"
+                                            style="font-size: 12px; border: 1px solid transparent;">
+                                            <li class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+                                                role="menuitem">
+                                                <div class="ant-menu-submenu-title" aria-expanded="true"
+                                                    aria-owns="sub0$Menu" aria-haspopup="true"
+                                                    style="padding-left: 24px;"><span><span
+                                                            style="color: black;">印制</span></span><i
+                                                        class="ant-menu-submenu-arrow"></i></div>
+                                                <ul id="sub0$Menu" class="ant-menu  ant-menu-sub ant-menu-inline"
+                                                    role="menu">
+                                                    <li class="ant-menu-item ant-menu-item-selected" role="menuitem"
+                                                        style="padding-left: 48px;">微博号</li>
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">微博书</li>
+                                                    <br>
+                                                    <li class="ant-menu-item ant-menu-item-selected" role="menuitem"
+                                                        style="padding-left: 48px;">微信号</li>
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">微信书</li>
+                                                    <br>
+                                                    <li class="ant-menu-item ant-menu-item-selected" role="menuitem"
+                                                        style="padding-left: 48px;">QQ空间</li>
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">公众号</li>
+                                                </ul>
+                                            </li>
+                                            <li class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+                                                role="menuitem">
+                                                <div class="ant-menu-submenu-title" aria-expanded="true"
+                                                    aria-owns="sub1$Menu" aria-haspopup="true"
+                                                    style="padding-left: 24px;"><span><span
+                                                            style="color: black;">个人中心</span></span><i
+                                                        class="ant-menu-submenu-arrow"></i></div>
+                                                <ul id="sub1$Menu" class="ant-menu  ant-menu-sub ant-menu-inline"
+                                                    role="menu">
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">我的订单</li>
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">我的作品</li>
+                                                    <li class="ant-menu-item" role="menuitem"
+                                                        style="padding-left: 48px;">我的设置</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-</html>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 做书界面结束 -->
