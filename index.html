@@ -14,6 +14,55 @@
 
 <body>
     <div>
+        <!-- 模态框 -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 25px; width: 350px;">
+                    <div class="container" style="margin-bottom: 20px;">
+                        <div class="cener">
+                            <!-- Nav tabs -->
+                            <ul class="nav" role="tablist">
+                                <li class="nav-item" style="margin-right: 20%;">
+                                    <a class="nav-link active" data-toggle="tab" href="#home">登录</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#menu1">注册</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="home" class="container tab-pane active"><br>
+                                <form class="denglu">
+                                    <input type="text" placeholder="请输入手机号码/邮箱">
+                                    <input type="text" placeholder="请输入密码">
+                                    <input id="ckbox" type="checkbox"><span style="font-size: 11px;">记住我</span>
+                                    <span style="font-size: 11px;"><a href="#">短信登录</a></span>
+                                    <button type="button" class="btn">登录</button><br>
+                                    <span style="font-size: 11px; margin-right: 10px;">其他登录方式：</span>
+                                    <i style="font-size: 11px; margin-right: 10px;"><a href="#">微信</a></i>
+                                    <i style="font-size: 11px;  margin-right: 10px;"><a href="#">QQ</a></i>
+                                    <i style="font-size: 11px;"><a href="#">微博</a></i>
+                                </form>
+                            </div>
+                            <div id="menu1" class="container tab-pane fade"><br>
+                                <form action="" class="denglu">
+                                    <input type="text" placeholder="请输入手机号">
+                                    <input type="text" placeholder="请输入验证码">
+                                    <button type="button"
+                                        style="float:right; border:none; font-size: 11px;">获取验证码</button>
+                                    <input type="text" placeholder="请输入密码">
+                                    <input type="text" placeholder="重复密码">
+                                    <input type="text" placeholder="笔名">
+                                    <button type="button" class="btn">注册</button><br>
+                                    <span style="font-size: 11px;">注册代表你已接受《用户服务与隐私协议》</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div style="margin-left: 15%;">
             <h3 style="float: left;">
                 <a href="/index.html" style="text-decoration: none;">
@@ -23,15 +72,17 @@
         </div>
         <div>
             <ul class="sa">
-                <li><a href="#">注册</a></li>
-                <li style="border-right-style:ridge;"><a href="#">登录</a></li>
+                <li style="border-right-style:ridge;"> <button style="border: none; color: #666;" type="button"
+                        data-toggle="modal" data-target="#myModal">
+                        登录/注册
+                    </button></li>
                 <li class="nav-item dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown" style="text-decoration: none;">
                         我的设置
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">账户设置</a>
-                        <a class="dropdown-item" href="#">会员中心</a>
+                        <a class="dropdown-item" href="/asettimg/asettimg.html">账户设置</a>
+                        <a class="dropdown-item" href="/member/member.html">会员中心</a>
                         <a class="dropdown-item" href="#">退出登录</a>
                     </div>
                 </li>

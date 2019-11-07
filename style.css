@@ -20,3 +20,33 @@ a{
 a:hover{
     color: brown;
 }
+.denglu{
+    border-bottom-style: ridge;
+    color: #808080;
+}
+.denglu>input{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 11px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: 1px solid #666;
+}
+.denglu>span>a{
+    padding-left: 50%;
+}
+#ckbox{
+    width: 20px;
+}
+.btn{
+    background-color: rgba(0,0,0,.65);
+    width: 80%;
+    border-radius: 100px;
+    margin: 20px;
+}
+.cener{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}

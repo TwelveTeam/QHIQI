@@ -1,0 +1,43 @@
+.ym{
+    background: #e4e4e4;
+    width: 100%;
+    float: left;
+}
+.daohang{
+    width: 100%;
+    height: 50px;
+}
+.cener{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 10px;
+    background: white;
+    height: 700px;
+}
+.biming{
+    width: 100%;
+    margin-top: 20px;
+    background:  #e4e4e4;
+    border-radius: 10px;
+    padding: 15px;
+}
+.biming>span{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 30%;
+    font-size: 14px;
+    color: #8d8d8d;
+}
+.ii{
+    float: left;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    margin: 10%;
+}
+.pp{
+    margin-left: 25%;
+    margin-top: 20%;
+    position: absolute;
+}
