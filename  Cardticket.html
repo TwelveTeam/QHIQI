@@ -11,18 +11,16 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./order.css">
-    <link rel="stylesheet" href="Cardticket.css">
 </head>
 <style>
     .Glidingline {
         color: #333;
         border-bottom: 2px solid #333;
-    
     }
 </style>
 
 <body>
-    <div style="height: 50px;">
+    <div>
         <!-- 导航栏开始 -->
         <div style="margin-left: 15%;">
             <h3 style="float: left;">
@@ -54,15 +52,54 @@
                         <a class="dropdown-item" href="#">我的消息</a>
                     </div>
                 </li>
-                <li><a href="./works.html" style="text-decoration: none;">我的作品</a></li>
-                <li><a href="./Order.html" style="text-decoration: none;">我的订单</a></li>
-                <li><a href="./Circle.html" style="text-decoration: none;">圈子</a></li>
-                <li><a href="./Writingbooks.html" style="text-decoration: none;">写书</a></li>
+                <li><a href="works.html" style="text-decoration: none;">我的作品</a></li>
+                <li><a href="Order.html" style="text-decoration: none;">我的订单</a></li>
+                <!-- <li><a href="#" style="text-decoration: none;">我的作品</a></li>
+                <li><a href="#" style="text-decoration: none;"class="Glidingline">我的订单</a></li> -->
+                <li><a href="Circle.html" style="text-decoration: none;">圈子</a></li>
+                <li><a href="Writingbooks.html" style="text-decoration: none;">写书</a></li>
                 <li><a href="./stack/stack.html" style="text-decoration: none;">看书</a></li>
             </ul>
         </div>
+        <!-- 导航栏结束 -->
     </div>
-    <!-- 导航栏结束 -->
-        <!-- 正文开始 -->
+    <!-- 正文开始 -->
+    <div style="min-height: 841px;">
+        <div style="max-width: 1100px; margin: auto;">
+            <div style="position: relative; padding-top: 60px;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="display: flex; justify-content: flex-start; align-items: center;"><span
+                            class="ant-input-affix-wrapper" style="height: 36px; width: 200px;"><input
+                                placeholder="请输入兑换码" type="text" class="ant-input" value=""><span
+                                class="ant-input-suffix"></span></span><button type="button"
+                            class="ant-btn ant-btn-primary"
+                            style=" font-size: 12px;height: 30px;border-radius: 5px;margin-bottom:4px;"><span>提
+                                交</span></button></div>
+                    <div style="display: flex; justify-content: flex-end; align-items: center; font-size: 14px;"><img
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjhweCIgaGVpZ2h0PSIyOHB4IiB2aWV3Qm94PSIwIDAgMjggMjgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjIgKDY3MTQ1KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT7liIbnu4QgMTc8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0i56Gu6K6k6K6i5Y2VIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0i5oiR55qE5Y2h5Yi4LWNvcHktOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMDQuMDAwMDAwLCAtMTI0LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0i5YiG57uELTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQxMC4wMDAwMDAsIDk4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9IuWIhue7hC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4OTQuMDAwMDAwLCAyNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0i5YiG57uELTE3Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGNpcmNsZSBpZD0i5qSt5ZyG5b2iIiBzdHJva2U9IiMzMzMzMzMiIGN4PSIxNCIgY3k9IjE0IiByPSIxMyI+PC9jaXJjbGU+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSLliIbnu4QiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDcuMDAwMDAwLCA2LjAwMDAwMCkiIGZpbGw9IiMzMzMzMzMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExLjEzNzc3MTcsMTQuOTkwMjE5MyBMMi44NjQxMzI0MywxNC45OTAyMTkzIEMyLjQzMDEwMzg2LDE0LjkxOTA1MDEgMC44NjE4MTQyNDYsMTQuNTA2OTc0IDEuMDA1MzU0MDQsMTIuMjk1MjkxNiBDMS4wMDc3NjcwNCwxMi4yNTU4MjA1IDEuMDA3NzY3MDQsMTIuMjE2MzI3IDEuMDA1Nzk2NzksMTIuMTc2Mzg0MiBDMC44NjgwMzQ4OTUsOS40Nzk5OTYyOSAyLjA2ODY0MjE0LDcuMjQwNTY5NiA0LjU3NDUyMjksNS41MjEzODgxMSBDNC44NDg2Mjk5LDUuMzMzMzMzMzMgNS4wMTI3Nzk3NCw1LjAxOTYwOTE2IDUuMDEyMzM2OTksNC42ODM5NTkxMiBDNS4wMTE4OTQyNCw0LjM0ODMwOTA5IDQuODQ3MTY4ODIsNC4wMzQ1NjI0NSA0LjU3MzEyODI0LDMuODQ3MDY5MyBDMy44MzE0MzIxNiwzLjM0MDg4NzIgMy40NTU1MzY3NiwyLjkzMDcyMDY1IDMuNDU1NTM2NzYsMi42Mjg2NTU4MyBDMy40NTU1MzY3NiwyLjI0MjM2OTYxIDMuNTM4MTA5NzgsMS45NjUxNzM1OCAzLjY0NjU2MTU4LDEuODkwMTE3OTEgQzMuODM1NzcxMTIsMS43NzMyNTQ4MiA0LjAyMDA0Mzk5LDEuNzE2MTkzNjQgNC4yMTAyMDU0NCwxLjcxNjE5MzY0IEM0LjM3MTg5ODAyLDEuNzE2MTkzNjQgNC41NDg1Nzc3MSwxLjc1ODEzNTg1IDQuNzM1MzUyMTIsMS44Mzk5MzEwMyBDNC44NjM1MDYzMiwxLjg5NjQ1MzA1IDQuOTk3OTkxODcsMS45MjMyOTg3NyA1LjEzMDQ2MjksMS45MjMyOTg3NyBDNS40NTY5MDMwMywxLjkyMzI5ODc3IDUuNzczMjI2MzIsMS43NjAwNjc4NCA1Ljk2MjM0NzMsMS40Njg3NDEzMSBDNi4xMTUwNTIwNCwxLjIzMzQ2NTAzIDYuMzQ2Mzg5MzIsMS4wMTQ3MDA1NiA2Ljk5NTkwNDY4LDEuMDA5ODkzMDQgTDYuOTk1OTA0NjgsMS4wMTA0MDk3MyBDNy42NTI1OTI2MiwxLjAxNDI1MTI1IDcuODg0OTQ4MjIsMS4yMzI5NDgzNCA4LjAzNzU2NDQsMS40Njg3NDEzMSBDOC4yMjY3NzM5NCwxLjc2MDA2Nzg0IDguNTQzMDk3MjIsMS45MjMyOTg3NyA4Ljg2OTUzNzM2LDEuOTIzMjk4NzcgQzkuMDAyMDMwNTMsMS45MjMyOTg3NyA5LjEzNjQwNTM4LDEuODk2NDUzMDUgOS4yNjQ2NDgxNCwxLjgzOTkzMTAzIEM5LjQ1MTM1NjE0LDEuNzU4MTM1ODUgOS42MjgwMTM2OSwxLjcxNjE5MzY0IDkuNzg5ODE2OTYsMS43MTYxOTM2NCBDOS45Nzk4Njc3MiwxLjcxNjE5MzY0IDEwLjE2NDI1MTMsMS43NzMyNTQ4MiAxMC4zMTc5MDc5LDEuODY3MjQ4NTEgQzEwLjQ2MTg5MDUsMS45NjUxNzM1OCAxMC41NDQ0NjM1LDIuMjQyMzY5NjEgMTAuNTQ0NDYzNSwyLjYyODY1NTgzIEMxMC41NDQ0NjM1LDIuOTMwNzIwNjUgMTAuMTY4NTY4MSwzLjM0MDg4NzIgOS40MjY4NzIwMiwzLjg0NzA2OTMgQzkuMTUyODMxNDQsNC4wMzQ1NjI0NSA4Ljk4ODEwNjAyLDQuMzQ4MzA5MDkgOC45ODc2NjMyNiw0LjY4Mzk1OTEyIEM4Ljk4NzE1NDEsNS4wMTk2MDkxNiA5LjE1MTM3MDM2LDUuMzMzMzMzMzMgOS40MjU0OTk0OSw1LjUyMTM4ODExIEMxMS45MzEyNjk2LDcuMjQwNTY5NiAxMy4xMzE4NzY4LDkuNDc5OTk2MjkgMTIuOTk0MTM3MSwxMi4xNzYzODQyIEMxMi45OTIyMzMyLDEyLjIxNjMyNyAxMi45OTIyMzMyLDEyLjI1NTgyMDUgMTIuOTk0NjQ2MiwxMi4yOTUyOTE2IEMxMy4xMzkxMzc5LDE0LjUxNzE1MDYgMTEuNTU0OTMxNCwxNC45MjMwMjY0IDExLjEzNzc3MTcsMTQuOTkwMjE5MyBNOS45ODI4MTIwMiw0LjY4NDkyNTEyIEMxMC42NTEwMTE1LDQuMjI4NTI1NTQgMTEuNTM5NTQ1OCwzLjU0MjEwNjQ5IDExLjUzOTU0NTgsMi42Mjg2NTU4MyBDMTEuNTM5NTQ1OCwxLjcxMzI5NTY1IDExLjIwNjQ0MjMsMS4yNTU0MTMzNyAxMC44NzEzNDY0LDEuMDI3ODY1MDYgQzEwLjU0ODgwMjUsMC44MjgxMjg0NjYgMTAuMTg4MjA0MSwwLjcwNjMyMzA2NCA5Ljc4OTgxNjk2LDAuNzA2MzIzMDY0IEM5LjUwMjcxNTIzLDAuNzA2MzIzMDY0IDkuMTk1NDY4MzMsMC43Njk2NzQ0NTQgOC44NjkwMjgyLDAuOTEzNDUwNjU3IEM4LjQyODg2NzUzLDAuMjM0ODQ5NDQyIDcuNzY5NzY2NiwwLjAwNDgyOTk4MTgzIDcuMDAxNjgyNTgsMC4wMDA0MjY4MzU2MDQgTDcuMDAxNjgyNTgsMCBMNi45OTgzMTc2OCwwIEw2Ljk5ODMxNzY4LDAuMDAwNDI2ODM1NjA0IEM2LjIzMDI1NTc5LDAuMDA0ODI5OTgxODMgNS41NzExMzI3MywwLjIzNDg0OTQ0MiA1LjEzMDg4MzUxLDAuOTEzNDUwNjU3IEM0LjgwNDQ0MzM3LDAuNzY5Njc0NDU0IDQuNDk3MTk2NDgsMC43MDYzMjMwNjQgNC4yMTAxMTY4OSwwLjcwNjMyMzA2NCBDMy44MTE3Mjk3NSwwLjcwNjMyMzA2NCAzLjQ1MTE5NzgxLDAuODI4MTI4NDY2IDMuMTI4NTY1MzIsMS4wMjc4NjUwNiBDMi43OTM0OTE1NSwxLjI1NTQxMzM3IDIuNDYwMzg4MDEsMS43MTMyOTU2NSAyLjQ2MDM4ODAxLDIuNjI4NjU1ODMgQzIuNDYwMzg4MDEsMy41NDIxMDY0OSAzLjM0ODkwMDI0LDQuMjI4NTI1NTQgNC4wMTcxODgyNCw0LjY4NDkyNTEyIEMyLjY4MzU3ODY3LDUuNTk5ODM2MDEgLTAuMjEwMTI5NjI0LDcuODg2NTUxNTkgMC4wMTIxMDkxMjA4LDEyLjIyOTA2NDcgQy0wLjIxMDEyOTYyNCwxNS42NTY2MjIgMi43OTM1NTc5NiwxNiAyLjc5MzU1Nzk2LDE2IEwxMS4yMDY0NDIzLDE2IEMxMS4yMDY0NDIzLDE2IDE0LjIxMDEyOTksMTUuNjU2NjIyIDEzLjk4Nzg5MTEsMTIuMjI5MDY0NyBDMTQuMjEwMTI5OSw3Ljg4NjU1MTU5IDExLjMxNjM1NTIsNS41OTk4MzYwMSA5Ljk4MjgxMjAyLDQuNjg0OTI1MTIiIGlkPSJGaWxsLTMiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTUuNzQ5OTU2NywxNi40NjE5NzU0IEMxNS44ODc3NDI5LDE2LjQ2MTk3NTQgMTUuOTk5OTI1LDE2LjMzNjg4ODkgMTUuOTk5OTI1LDE2LjE4MzY2MTYgQzE1Ljk5OTkyNSwxNi4wMjk0NzI2IDE1Ljg4Nzc0MjksMTUuOTA0MzQ0MyAxNS43NDk5NTY3LDE1LjkwNDM0NDMgTDE0LjM1NDE5MzcsMTUuOTA0MzQ0MyBMMTUuNjMzNzYzMywxNC40NzYyNTA3IEMxNS43MzA4Mzc5LDE0LjM2NzQ1MDcgMTUuNzMwODM3OSwxNC4xOTExMjEyIDE1LjYzMzc2MzMsMTQuMDgyMjU4NSBDMTUuNTM2MTY0LDEzLjk3MzUwMDQgMTUuMzc3NjI4MiwxMy45NzM1MDA0IDE1LjI4MDEwMzgsMTQuMDgyMjU4NSBMMTQuMDAwMTc4MSwxNS41MDk5MTMgTDEyLjcxOTgyMTIsMTQuMDgyMjU4NSBDMTIuNjIyMjc4LDEzLjk3MjU4MDUgMTIuNDYzNzYxMSwxMy45NzI1ODA1IDEyLjM2NjIzNjcsMTQuMDgyMjU4NSBDMTIuMjY5MDg3MSwxNC4xOTEwMzc2IDEyLjI2OTA4NzEsMTQuMzY2OTQ5IDEyLjM2NjIzNjcsMTQuNDc2MjUwNyBMMTMuNjQ2MTgxMiwxNS45MDQzNDQzIEwxMi4yNDk5Njg0LDE1LjkwNDM0NDMgQzEyLjExMjE4MjEsMTUuOTA0MzQ0MyAxMiwxNi4wMjk0NzI2IDEyLDE2LjE4MzY2MTYgQzEyLDE2LjMzNjg4ODkgMTIuMTEyMTgyMSwxNi40NjE5NzU0IDEyLjI0OTk2ODQsMTYuNDYxOTc1NCBMMTMuNzQ5Nzc4NiwxNi40NjE5NzU0IEwxMy43NDk3Nzg2LDE3LjAxOTYyNzUgTDEyLjI0OTk2ODQsMTcuMDE5NjI3NSBDMTIuMTEyMTgyMSwxNy4wMTk2Mjc1IDEyLDE3LjE0NDc5NzYgMTIsMTcuMjk4OTIzOSBDMTIsMTcuNDUyNjMyMSAxMi4xMTIxODIxLDE3LjU3NzcxODYgMTIuMjQ5OTY4NCwxNy41Nzc3MTg2IEwxMy43NDk3Nzg2LDE3LjU3NzcxODYgTDEzLjc0OTc3ODYsMTguNzIxNTYwNyBDMTMuNzQ5Nzc4NiwxOC44NzQ4NTA4IDEzLjg2MjAxNjksMTkgMTQuMDAwMTc4MSwxOSBDMTQuMTM3OTgzMSwxOSAxNC4yNDk3MTUzLDE4Ljg3NDg1MDggMTQuMjQ5NzE1MywxOC43MjE1NjA3IEwxNC4yNDk3MTUzLDE3LjU3NzcxODYgTDE1Ljc1MDAzMTYsMTcuNTc3NzE4NiBDMTUuODg3NzQyOSwxNy41Nzc3MTg2IDE2LDE3LjQ1MjYzMjEgMTYsMTcuMjk4OTIzOSBDMTYsMTcuMTQ0NzM0OSAxNS44ODc3NDI5LDE3LjAxOTYyNzUgMTUuNzUwMDMxNiwxNy4wMTk2Mjc1IEwxNC4yNDk3MTUzLDE3LjAxOTYyNzUgTDE0LjI0OTcxNTMsMTYuNDYxOTc1NCBMMTUuNzQ5OTU2NywxNi40NjE5NzU0IFoiIGlkPSJGaWxsLTEiIGZpbGw9IiMzMzMzMzMiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                            alt="wallet">
+                        <div style="margin-left: 20px;">余额：</div>
+                        <div style="color: rgb(243, 134, 139);">0.00元</div>
+                    </div>
+                </div>
+                <div class="ant-divider ant-divider-horizontal"
+                    style="height: 2px; background-color: rgb(204, 204, 204);"></div>
+                <div class="col-xs-12" style="background-color: white;border-radius:5px;padding:10px 30px">
+                    <div class="col-xs-12" style="border-bottom: 1px solid #C0C0C0;">
+                        <span class="col-sm-8 nav">
+                            <a class="Glidingline">可使用卡券</a>
+                            <a>已使用卡券</a>
+                            <a>已过期卡券</a>
+                        </span>
+                    </div>
+                </div>
+                <div style="margin-left: 500px;margin-top: 300px;">
+                    <div><img alt="暂无数据"
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA2NCA0MSIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxlbGxpcHNlIGZpbGw9IiNGNUY1RjUiIGN4PSIzMiIgY3k9IjMzIiByeD0iMzIiIHJ5PSI3Ii8+CiAgICA8ZyBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgIDxwYXRoIGQ9Ik01NSAxMi43Nkw0NC44NTQgMS4yNThDNDQuMzY3LjQ3NCA0My42NTYgMCA0Mi45MDcgMEgyMS4wOTNjLS43NDkgMC0xLjQ2LjQ3NC0xLjk0NyAxLjI1N0w5IDEyLjc2MVYyMmg0NnYtOS4yNHoiLz4KICAgICAgPHBhdGggZD0iTTQxLjYxMyAxNS45MzFjMC0xLjYwNS45OTQtMi45MyAyLjIyNy0yLjkzMUg1NXYxOC4xMzdDNTUgMzMuMjYgNTMuNjggMzUgNTIuMDUgMzVoLTQwLjFDMTAuMzIgMzUgOSAzMy4yNTkgOSAzMS4xMzdWMTNoMTEuMTZjMS4yMzMgMCAyLjIyNyAxLjMyMyAyLjIyNyAyLjkyOHYuMDIyYzAgMS42MDUgMS4wMDUgMi45MDEgMi4yMzcgMi45MDFoMTQuNzUyYzEuMjMyIDAgMi4yMzctMS4zMDggMi4yMzctMi45MTN2LS4wMDd6IiBmaWxsPSIjRkFGQUZBIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K">
+                    </div>
+                    <p class="ant-empty-description">暂无数据</p>
+                </div>
+            </div>
 
-      
+
+</body>
