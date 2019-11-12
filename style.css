@@ -2,7 +2,7 @@ ul{
     list-style: none;
 }
 .sa{
-    margin-right: 10%;
+    margin-right: 300px;
 }
 .sa>li{
     float: right;
@@ -34,7 +34,7 @@ a:hover{
     border-bottom-style: 1px solid #666;
 }
 .denglu>span>a{
-    padding-left: 50%;
+    padding-left: 300;
 }
 #ckbox{
     width: 20px;
