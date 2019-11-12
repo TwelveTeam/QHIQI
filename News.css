@@ -1,0 +1,27 @@
+.ym{
+    width: 100%;
+    float: left;
+    background-color:#e4e4e4;
+}
+.cener{
+    height: 1000px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 10px;
+    background: white;
+}
+.hezi{
+    float: left;
+    width: 100%;
+    border-bottom-style: ridge;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background: white;
+}
+.kkk{
+    float: left;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,37 @@
+.ym{
+    width: 100%;
+    float: left;
+    background-color:#e4e4e4;
+}
+.cener{
+    height: 1000px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 10px;
+    background: white;
+}
+.qf{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 10px;
+    background: white;
+    margin-left: 15%;
+
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 2px;
+    margin-top: 2px;
+    margin-right: 60px;
+    border: none;
+    font-size: 17px;
+  }
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+}
+.data-picture{
+    margin-top: 200px;
+}

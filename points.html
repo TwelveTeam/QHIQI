@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>拾忆</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./order.css">
+    <link rel="stylesheet" href="points.css">
+</head>
+
+<body>
+    <div>
+        <!-- 导航栏开始 -->
+        <div style="margin-left: 15%;">
+            <h3 style="float: left;">
+                <a href="./index.html" style="text-decoration: none;">
+                    <img src="https://static.shiqichuban.com/assets/img/logo40.png" width="94px" height="40px">
+                </a>
+            </h3>
+        </div>
+        <div>
+            <ul class="sa">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown" style="text-decoration: none;">
+                        我的设置
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./asettimg/asettimg.html">账户设置</a>
+                        <a class="dropdown-item" href="./member/member.html">会员中心</a>
+                        <a class="dropdown-item" href="#">退出登录</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" style="text-decoration: none;" class="dropdown-toggle" data-toggle="dropdown">
+                        我的拾柒
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Share.html">我的分享</a>
+                        <a class="dropdown-item" href="points.html">我的积分</a>
+                        <a class="dropdown-item" href="Cardticket.html">我的卡券</a>
+                        <a class="dropdown-item" href="News.html">我的消息</a>
+                    </div>
+                </li>
+                <li><a href="works.html" style="text-decoration: none;">我的作品</a></li>
+                <li><a href="Order.html" style="text-decoration: none;" class="Glidingline">我的订单</a></li>
+                <!-- <li><a href="#" style="text-decoration: none;">我的作品</a></li>
+                <li><a href="#" style="text-decoration: none;"class="Glidingline">我的订单</a></li> -->
+                <li><a href="Circle.html" style="text-decoration: none;">圈子</a></li>
+                <li><a href="Writingbooks.html" style="text-decoration: none;">写书</a></li>
+                <li><a href="./stack/stack.html" style="text-decoration: none;">看书</a></li>
+            </ul>
+        </div>
+        <!-- 导航栏结束 -->
+        <!-- 正文 -->
+        <div class="row article" style="padding: 0px;margin-top: -50px; min-height: 901px;width: 100%;">
+            </style>
+            <div class="container-fluid">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1"
+                    style="margin-top: 10px;margin-bottom: 50px;padding-left:10px;padding-right:10px;margin-left: 200px;">
+                    <div class="col-xs-12 user_score" style="background-color: white;border-radius:5px;min-height: 510px;padding: 0
+                        px 50px;">
+                        <div class="col-xs-12 user_score_head">
+                            <h3>我的积分</h3>
+                            <div class="user_score_line"></div>
+                            <div class="user_score_view clearfix">
+                                <div class="user_avatar fl"><img
+                                        src="https://res.shiqichuban.com/v1/image/get/55fAdMNSgIQQFUzwOCnS2nWH6zVeoR6DJ09R39ZIUgkcIkhpRdfIzKiD-Su3XY-Lr4k5YutcY5fJymo1FD4Iag">
+                                </div>
+                                <div class="user_info fl">
+                                    <div>您目前的积分为：</div>
+                                    <div class="user_score_info">0</div>
+                                </div>
+                                <div class="score_count fl">
+                                    <div class="count_des">
+                                        <span>使用</span>
+                                        <input type="text" value="" placeholder="1000" id="count_score">
+                                        <span>积分 = </span>
+                                        <input type="text" value="" id="us_count_code" readonly="readonly">
+                                        <span>元优惠券（1000积分＝10元）</span>
+                                    </div>
+                                    <div class="count_tips fl">
+                                        (订单每满50元可使用10元优惠券)
+                                    </div>
+                                </div>
+                                <div class="score_sub fl">
+                                    <span>兑换</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 ">
+                            <div class="user_score_rule">
+                                <h4>积分规则</h4>
+                                <ul class="user_score_list">
+                                    <li>1.记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录：每日首篇文章，奖励10积分；之后每篇文章奖励1积分。</li>
+                                    <li>2.分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;享：每日首次分享奖励5积分。</li>
+                                    <li>3.印制/下载：按实付金额计算，每支付1元奖励1积分(不满1元时按1积分计算)。</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="user_score_sources">
+                                <h4>积分来源</h4>
+                                <ul class="user_source_list">
+                                    <li>
+                                        <span>
+                                            文章
+                                        </span>
+                                        <span>
+                                            0积分
+                                        </span>
+                                        <span>
+
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            分享
+                                        </span>
+                                        <span>
+                                            0积分
+                                        </span>
+                                        <span>
+
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                            印制/下载
+                                        </span>
+                                        <span>
+                                            0积分
+                                        </span>
+                                        <span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
