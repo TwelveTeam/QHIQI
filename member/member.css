@@ -22,3 +22,21 @@
     height: 70px;
     margin-right: 50px;
 }
+.type{
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 4px 12px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.sign{
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: white;
+}
