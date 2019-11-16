@@ -2,48 +2,6 @@
 .fl {
     float: left;
 }
-
-.clearfix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-input::-webkit-input-placeholder {
-    color: #ccc;
-}
-
-input:-moz-placeholder {
-    color: #ccc;
-}
-
-input::-moz-placeholder {
-    color: #ccc;
-}
-
-input:-ms-input-placeholder {
-    color: #ccc;
-}
-
-.user_score {
-    font-size: 14px;
-    font-family: Microsoft yahei;
-}
-
-.user_score_head h3 {
-    color: #2c2c2c;
-    margin: 0;
-    line-height: 36px;
-    height: 36px;
-    font-size: 14px;
-}
-
-.user_score_head .user_score_line {
-    height: 0;
-    border-top: 1px solid #4e4e4e;
-    border-bottom: 1px solid #9e9e9e;
-}
-
 .user_score_view {
     margin-top: 20px;
     border: 1px solid #ddd;
@@ -58,23 +16,11 @@ input:-ms-input-placeholder {
     border-radius: 27px;
 }
 
-.user_info {
-    padding-left: 26px;
-}
 
-.user_info div {
-    font-size: 14px;
-    color: #666;
-    line-height: 26px;
-    height: 26px;
-}
 
-.user_info .user_score_info {
-    font-size: 24px;
-    color: #fc6b6b;
-    line-height: 34px;
-    height: 34px;
-}
+
+
+
 
 .user_score_rule {
     margin-top: 10px;
@@ -83,11 +29,7 @@ input:-ms-input-placeholder {
 
 }
 
-.score_count {
-    margin-left: 11%;
-    padding-left: 9%;
-    border-left: 1px solid #dcdcdc;
-}
+
 
 .count_des span {
     color: #666666;
@@ -207,28 +149,3 @@ input:-ms-input-placeholder {
     vertical-align: bottom;
 }
 
-@media only screen and (max-width: 640px) {
-    .user_score {
-        padding: 0 !important;
-    }
-}
-
-@media only screen and (max-width: 430px) {
-    .user_source_list li span {
-        display: inline;
-        padding-left: 25px;
-    }
-}
-
-@media only screen and (max-width: 1450px) {
-    .score_count {
-        margin-left: 5%;
-        padding-left: 4%;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    .score_sub {
-        float: right;
-    }
-}
